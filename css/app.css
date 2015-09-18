@@ -1,0 +1,316 @@
+body{
+   margin: 0; 
+   padding: 0; 
+   border: 0; 
+   font: inherit; 
+   font-size: 100%; 
+   vertical-align: baseline; 
+ } 
+ 
+ 
+ /* line 22, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ html { 
+   line-height: 1; 
+ } 
+ 
+ 
+ /* line 24, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ ol, ul { 
+   list-style: none; 
+ } 
+ 
+ 
+ /* line 26, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ table { 
+   border-collapse: collapse; 
+   border-spacing: 0; 
+ } 
+ 
+  /* line 28, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ caption, th, td { 
+   text-align: left; 
+   font-weight: normal; 
+   vertical-align: middle; 
+ } 
+ 
+ 
+ /* line 30, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ q, blockquote { 
+   quotes: none; 
+ } 
+ /* line 103, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ q:before, q:after, blockquote:before, blockquote:after { 
+   content: ""; 
+   content: none; 
+ } 
+ 
+ 
+ /* line 32, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ a img { 
+   border: none; 
+ } 
+ 
+ 
+ /* line 116, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */ 
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { 
+   display: block; 
+ } 
+ 
+ 
+ /* line 4, ../sass/app.scss */ 
+ body {    font-family: Open sans; 
+ } 
+
+ 
+ /********************************** 
+72 ************HEADER***************** 
+73 **********************************/ 
+74 /* line 14, ../sass/app.scss */ 
+75 header { 
+76   background: url(../img/covers/95.jpg) no-repeat top center fixed; 
+77   -webkit-background-size: cover; 
+78   -moz-background-size: cover; 
+79   -o-background-size: cover; 
+80   background-size: cover; 
+81 } 
+82 /* line 17, ../sass/app.scss */ 
+83 header .bg-cover { 
+84   position: absolute; 
+85   right: 0; 
+86   left: 0; 
+87   bottom: 0; 
+88   z-index: 1; 
+89   height: 100%; 
+90   background-color: rgba(0, 5, 8, 0.75); 
+91 } 
+92 
+ 
+93 /* line 28, ../sass/app.scss */ 
+94 .header-content { 
+95   position: fixed; 
+96   right: 0; 
+97   left: 0; 
+98   top: 33%; 
+99   z-index: 2; 
+100   text-align: center; 
+101   font-family: Open sans; 
+102   color: #FFF; 
+103 } 
+104 /* line 39, ../sass/app.scss */ 
+105 .header-content h1 { 
+106   text-transform: uppercase; 
+107   letter-spacing: 2px; 
+108   font-size: 56px; 
+109   font-weight: 600; 
+110 } 
+111 /* line 47, ../sass/app.scss */ 
+112 .header-content p { 
+113   line-height: 1.5em; 
+114   font-size: 18px; 
+115   font-weight: 300; 
+116   padding: 50px 100px; 
+117 } 
+118 
+ 
+119 /* line 57, ../sass/app.scss */ 
+120 .header-btns { 
+121   margin: 10px 0; 
+122 } 
+123 
+ 
+124 /* line 60, ../sass/app.scss */ 
+125 .scroll-down { 
+126   position: absolute; 
+127   right: 0; 
+128   left: 0; 
+129   bottom: 0; 
+130   text-align: center; 
+131 } 
+132 
+ 
+133 /********************************** 
+134 ************, NAVBAR ************** 
+135 **********************************/ 
+136 /* line 73, ../sass/app.scss */ 
+137 .navbar { 
+138   position: fixed; 
+139   top: 0; 
+140   right: 0; 
+141   left: 0; 
+142   z-index: 3; 
+143   -webkit-transition-property: all; 
+144   -moz-transition-property: all; 
+145   -o-transition-property: all; 
+146   transition-property: all; 
+147   -webkit-transition-duration: 0.8s; 
+148   -moz-transition-duration: 0.8s; 
+149   -o-transition-duration: 0.8s; 
+150   transition-duration: 0.8s; 
+151 } 
+152 
+ 
+153 /* line 83, ../sass/app.scss */ 
+154 .navbar.full { 
+155   height: 100px; 
+156   line-height: 100px; 
+157 } 
+158 
+ 
+159 /* line 87, ../sass/app.scss */ 
+160 .navbar.shrink { 
+161   height: 60px; 
+162   line-height: 60px; 
+163   background: #222; 
+164 } 
+165 /* line 92, ../sass/app.scss */ 
+166 .navbar.shrink .navbar-logo img { 
+167   height: 40px; 
+168 } 
+169 
+ 
+170 /* line 96, ../sass/app.scss */ 
+171 .navbar-logo { 
+172   float: left; 
+173 } 
+174 /* line 98, ../sass/app.scss */ 
+175 .navbar-logo img { 
+176   vertical-align: middle; 
+177 } 
+178 
+ 
+179 /* line 102, ../sass/app.scss */ 
+180 .navbar-menu { 
+181   overflow: hidden; 
+182   text-align: right; 
+183 } 
+184 /* line 105, ../sass/app.scss */ 
+185 .navbar-menu a { 
+186   text-decoration: none; 
+187   text-transform: uppercase; 
+188   font-size: 14px; 
+189   color: #FFF; 
+190   padding: 0 15px; 
+191 } 
+192 /* line 114, ../sass/app.scss */ 
+193 .navbar-menu .active { 
+194   color: #fec503; 
+195 } 
+196 
+ 
+197 /********************************** 
+198 *******, STYLES GENERIQUES ******** 
+199 **********************************/ 
+200 /* line 122, ../sass/app.scss */ 
+201 .btn { 
+202   text-decoration: none; 
+203   -webkit-border-radius: 5px; 
+204   -moz-border-radius: 5px; 
+205   -ms-border-radius: 5px; 
+206   -o-border-radius: 5px; 
+207   border-radius: 5px; 
+208   padding: 10px 20px; 
+209   margin: 0 10px; 
+210   -webkit-transition-property: all; 
+211   -moz-transition-property: all; 
+212   -o-transition-property: all; 
+213   transition-property: all; 
+214   -webkit-transition-duration: 0.8s; 
+215   -moz-transition-duration: 0.8s; 
+216   -o-transition-duration: 0.8s; 
+217   transition-duration: 0.8s; 
+218 } 
+219 
+ 
+220 /* line 134, ../sass/app.scss */ 
+221 .btn-transparent { 
+222   border: 1px solid #FFF; 
+223   color: #FFF; 
+224 } 
+225 /* line 137, ../sass/app.scss */ 
+226 .btn-transparent:hover { 
+227   background: #FFF; 
+228   color: #000; 
+229 } 
+230 
+ 
+231 /* line 142, ../sass/app.scss */ 
+232 .btn-yellow { 
+233   background: #fec503; 
+234   color: #000; 
+235   border: 1px solid #fec503; 
+236 } 
+237 /* line 147, ../sass/app.scss */ 
+238 .btn-yellow:hover { 
+239   background: transparent; 
+240   color: #FFF; 
+241 } 
+242 
+ 
+243 /* line 152, ../sass/app.scss */ 
+244 .container { 
+245   max-width: 1170px; 
+246   margin: auto; 
+247 } 
+248 
+ 
+249 /* line 157, ../sass/app.scss */ 
+250 .content { 
+251   height: 1000px; 
+252   position: absolute; 
+253   right: 0; 
+254   left: 0; 
+255 } 
+256 
+ 
+257 @media only screen and (max-width: 768px) { 
+258   /* line 165, ../sass/app.scss */ 
+259   .navbar-logo { 
+260     margin-left: 20px; 
+261   } 
+262 
+ 
+263   /* line 168, ../sass/app.scss */ 
+264   .navbar-menu { 
+265     display: none; 
+266   } 
+267 
+ 
+268   /* line 172, ../sass/app.scss */ 
+269   .navbar.shrink .navbar-ico-resp { 
+270     position: relative; 
+271     display: block; 
+     float: right; 
+     width: 45px; 
+     height: 60px; 
+     cursor: pointer; 
+   } 
+  /* line 180, ../sass/app.scss */ 
+   .navbar.shrink .navbar-ico-resp:after { 
+     content: ''; 
+     position: absolute; 
+     display: block; 
+     width: 1rem; 
+     height: 0; 
+     top: 15px; 
+     left: 15px; 
+     box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; 
+   } 
+ 
+ 
+   /* line 191, ../sass/app.scss */ 
+  .responsive.shrink .navbar-menu { 
+     display: block; 
+     position: absolute; 
+     top: 60px; 
+     right: 0; 
+     left: 0; 
+     text-align: center; 
+   } 
+ 
+ 
+   /* line 199, ../sass/app.scss */ 
+   .navbar-ico-resp { 
+     overflow: hidden; 
+     margin-right: 20px; 
+   } 
+ } 

@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+}
+
+header { 
+  background: url(../images/3.jpg) no-repeat top center fixed; 
+   -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+   background-size: cover; 
+ }
+ .bg-photo{
+ 	position: absolute;
+ 	right: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	z-index: 1;
+ 	height: 100%;
+ 	background-color: rgba(0,5,8,0.75);
+ 	margin: 0;
+ }
+ .haut{
+ 	background: #000;
+ }
+ .haut>form>#mail, #pwd{
+		/*padding:0 0 0 15px;*/
+		width:150px;
+		text-align:left;
+		line-height: 30px;
+}
+.content{
+  background: url(../images/1.jpg) no-repeat top center fixed; 
+   -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+   background-size: cover; 
+	height: 100%;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top:100%;
+}
+
+section>img{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+.container {
+		z-index: 3;
+		margin:0 auto;
+		top:25%;
+		/*margin-bottom:25px;*/
+		/*border:solid 1px #ccc;*/
+		width:365px;
+		background:#f5f5f5;
+		border-radius:3px;
+		padding-bottom:1%;
+		box-shadow:0 2px 2px rgba(0,0,0,0.3);
+		position: relative;
+}
+header>img {
+		display:block;
+		margin:0 auto;
+		width:auto;
+		margin-top:32px;
+}
+div>form>p {
+		text-align:center;
+		color:#555;
+}
+.container>form {
+		position:relative;
+		margin:0 auto;
+		width:275px;
+}
+.container>form>#pseudo,#mail,#pwd {
+		padding:0 0 0 15px;
+		margin-top:35px;
+		margin:3px auto;
+		width:94%;
+		text-align:left;
+		line-height: 40px;
+}
+.container {
+		margin:0 auto;
+		margin-bottom:25px;
+		/*border:solid 1px #ccc;*/
+		width:365px;
+		background:#f5f5f5;
+		border-radius:3px;
+		padding-bottom:1%;
+		box-shadow:0 2px 2px rgba(0,0,0,0.3);
+}
+/*div>form>img {
+		display:block;
+		margin:0 auto;
+		border-radius:50%;
+		height:35%;
+		width:45%;
+		padding: 25px;
+}*/
+.container>form>input[type="button"] {
+		/*margin-top:15px;*/
+		display:inline-block;
+		background:#4185F3;
+		color:#fff;
+		width:150px;
+		border-radius:3px;
+		line-height:35px;
+		border:none;
+		display: block;
+		margin: 0 auto;
+}
+.container>form>a {
+		position:absolute;
+		left:0;
+		bottom:-25px;
+		text-decoration:none;
+		cursor:help;
+		transition-duration:0.5s;
+		font-size:14px;
+}
+.container>form>a:hover {
+		text-decoration:underline;
+}
+.container>form>input[type="pseudo"],input[type="mail"],input[type="password"] {
+	-moz-box-shadow:0 1px 2px #999 inset;
+	box-shadow:0 1px 2px #999 inset;
+	border:solid 1px #999;
+}
+.container>form>input[type="mail"]:focus,input[type="password"]:focus {
+	border:solid 1px #4185F3;
+}
+
+/*#compte {
+		margin:0 auto;
+		text-align:center;
+		padding-top:20px;
+		font-size:15px;
+		color:#4185F3;
+}*/
